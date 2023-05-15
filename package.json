@@ -1,0 +1,27 @@
+{
+  "name": "s3-to-youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pysaquib/s3-to-youtube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1377.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "googleapis": "^118.0.0",
+    "youtube-api": "^3.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/pysaquib/s3-to-youtube/issues"
+  },
+  "homepage": "https://github.com/pysaquib/s3-to-youtube#readme"
+}
