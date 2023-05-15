@@ -32,7 +32,7 @@ oAuth2Client.credentials = {
 app.post('/s3-to-youtube', async (req, res) => {
   const { video, title, description } = req.body;
   const s3data = {
-    Bucket: 'upload-to-yt',
+    Bucket: process.env.S3_BUCKET,
     Key: video,
   };
   let fileStream = S3.getObject(s3data).createReadStream();
